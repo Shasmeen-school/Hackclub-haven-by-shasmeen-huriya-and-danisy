@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://2vvtpfal6yp4"]
+
+[ext_resource type="Script" uid="uid://ct0hhhdfdnf78" path="res://story_ui.gd" id="1_yio73"]
+
+[node name="StoryUI" type="CanvasLayer" unique_id=1492528056]
+script = ExtResource("1_yio73")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1779927086]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="PanelContainer" unique_id=408777480]
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
